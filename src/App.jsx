@@ -30,6 +30,8 @@ function App() {
       
       <div className='rating-place '>
         <HoverRating />
+        <h3>Please take a few moments to comment on our answers!</h3>
+        <a href="https://www.wjx.cn/vm/OJMsMXn.aspx#" target="_blank" rel="noopener noreferrer">https://www.wjx.cn/vm/OJMsMXn.aspx#</a>
       </div>
 
     </div>
