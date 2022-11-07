@@ -4,8 +4,9 @@ import './Title.css';
 function Title() {
   return (
     <section className='title'>
-        <div className='title-text'>A Chinese Psychological Consultation Dialogue System
-        Based on Vary Strategies</div>
+        <div className='title-text'>A Chinese Psychological Consultation Dialogue System 
+        Based on Large Corpus Pre-training Model</div>
+        <div></div>
     </section>
   )
 }
