@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import { InputBox, OutputBox, HoverRating, Score, Title } from './component/common'
+import { InputBox, OutputBox, HoverRating, Title } from './component/common'
 
 function App() {
   const [input, set_input] = useState("Please enter your question in Chinese and end with a question mark");
