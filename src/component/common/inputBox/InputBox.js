@@ -3,7 +3,11 @@ import axios from 'axios'
 import './InputBox.css'
 
 axios.defaults.timeout = 360000;
-const base_url = '/call?input=';
+//const base_url = '/call?input=';
+const base_url =
+  process.env.NODE_ENV === 'production'
+    ? 'http://13.236.208.165:5000/call?input='
+    : '/call?input=';
 
 function InputBox({ input, set_input, set_output, set_get_val }) {
 
