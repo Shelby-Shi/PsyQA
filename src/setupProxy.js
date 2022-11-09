@@ -6,7 +6,7 @@ module.exports = function (app) {
         '/call',
         createProxyMiddleware({
             // http://localhost:4000/ 地址只是示例，实际地址以项目为准
-            target: 'http://13.236.208.165:5000',
+            target: 'https://13.236.208.165:5000',
             // 跨域时一般都设置该值 为 true
             changeOrigin: true,
             // 重写接口路由
