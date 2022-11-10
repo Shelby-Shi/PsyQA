@@ -6,7 +6,8 @@ axios.defaults.timeout = 360000;
 //const base_url = '/call?input=';
 const base_url =
   process.env.NODE_ENV === 'production'
-    ? 'https://13.236.208.165:5000/call?input='
+    //? 'https://13.236.208.165:5000/call?input='
+    ? 'https://www.shelbyshi.com/call?input='
     : '/call?input=';
 
 function InputBox({ input, set_input, set_output, set_get_val }) {
