@@ -21,7 +21,7 @@ function App() {
       />
       {
         get_val ? (
-          <h2>正在加载中......</h2>
+          <h2>Loading... This will usually take one minute</h2>
         ) : (
           null
         )
